@@ -86,7 +86,7 @@ body{
     display: none;
 
 }
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   input{
     width: 200px;
   }
@@ -101,4 +101,10 @@ body{
       width: 50%;
       margin-right: 10px;
   }
+  .win p{
+    font-size: 15px;
+  }
+.hum p{
+    font-size: 15px;
+}
 }
