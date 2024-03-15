@@ -86,3 +86,19 @@ body{
     display: none;
 
 }
+@media screen and (min-width: 375px) {
+  input{
+    width: 200px;
+  }
+  .card{
+    margin-top: 0;
+    height: 585px;
+    width: 100%;
+    border-radius: 0px;
+ 
+  }
+  .col{
+      width: 50%;
+      margin-right: 10px;
+  }
+}
